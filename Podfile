@@ -7,6 +7,7 @@ target 'gqFinal' do
   pod 'paper-onboarding'
   pod 'UICircularProgressRing'
   pod 'XLPagerTabStrip', '~> 9.0'
+  pod 'BEMCheckBox'
 
   pod 'Firebase/Analytics'
   pod 'Firebase/Firestore'
@@ -14,6 +15,10 @@ target 'gqFinal' do
   pod 'Firebase/Auth'
   pod 'FirebaseUI/Storage'
 
+  pod 'FBSDKLoginKit'
+  pod 'GoogleSignIn'
+
+  pod 'SwiftLint'
 
   # Pods for gqFinal
 

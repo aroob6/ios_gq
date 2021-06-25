@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="RankingTableViewCell" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="RankingTableViewCell" customModule="gqFinal" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="86"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="86"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="아이유" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nv5-Y8-qF5">
+                        <rect key="frame" x="99" y="17" width="42" height="20"/>
+                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="16"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="플래티넘" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNC-nR-wyU">
+                        <rect key="frame" x="305.5" y="42" width="48.5" height="17"/>
+                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="14"/>
+                        <color key="textColor" systemColor="systemBlueColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1위. 67개" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1GJ-fl-Iur">
+                        <rect key="frame" x="99" y="42" width="51" height="17"/>
+                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="14"/>
+                        <color key="textColor" red="0.57254901960000004" green="0.57254901960000004" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="37E-7S-xFo">
+                        <rect key="frame" x="21" y="10" width="64" height="64"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RX2-iw-HFa">
+                                <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+                                <color key="backgroundColor" red="0.87058823529411766" green="0.87058823529411766" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="JVm-Cd-ccS"/>
+                                    <constraint firstAttribute="width" constant="64" id="eVc-4b-v1R"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RX2-iw-HFa" secondAttribute="trailing" id="C1K-MX-c4C"/>
+                            <constraint firstAttribute="height" constant="64" id="J76-hj-alS"/>
+                            <constraint firstAttribute="bottom" secondItem="RX2-iw-HFa" secondAttribute="bottom" id="Nvg-8g-7W0"/>
+                            <constraint firstItem="RX2-iw-HFa" firstAttribute="leading" secondItem="37E-7S-xFo" secondAttribute="leading" id="qf8-Zg-2GJ"/>
+                            <constraint firstAttribute="width" constant="64" id="v6Z-4Y-2ka"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1GJ-fl-Iur" firstAttribute="leading" secondItem="37E-7S-xFo" secondAttribute="trailing" constant="14" id="6K1-SH-xJJ"/>
+                    <constraint firstItem="iNC-nR-wyU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="42" id="9Mq-93-ywJ"/>
+                    <constraint firstItem="Nv5-Y8-qF5" firstAttribute="leading" secondItem="37E-7S-xFo" secondAttribute="trailing" constant="14" id="DDF-zY-fU5"/>
+                    <constraint firstItem="37E-7S-xFo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Fln-UH-f3m"/>
+                    <constraint firstItem="1GJ-fl-Iur" firstAttribute="top" secondItem="Nv5-Y8-qF5" secondAttribute="bottom" constant="5" id="JCv-1x-EgI"/>
+                    <constraint firstItem="Nv5-Y8-qF5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="OTU-Ud-IRm"/>
+                    <constraint firstItem="37E-7S-xFo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="21" id="dHv-JH-hgs"/>
+                    <constraint firstAttribute="trailing" secondItem="iNC-nR-wyU" secondAttribute="trailing" constant="21" id="ukU-Wc-NXM"/>
+                    <constraint firstAttribute="bottom" secondItem="37E-7S-xFo" secondAttribute="bottom" constant="6" id="xiZ-dJ-xtC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgView" destination="RX2-iw-HFa" id="A2w-sW-xpe"/>
+                <outlet property="nameLabel" destination="Nv5-Y8-qF5" id="eGl-ly-D5N"/>
+                <outlet property="outView" destination="37E-7S-xFo" id="Aye-y1-XJq"/>
+                <outlet property="rankLabel" destination="1GJ-fl-Iur" id="nuA-y2-X9d"/>
+                <outlet property="ratingLabel" destination="iNC-nR-wyU" id="fe9-WV-CVp"/>
+            </connections>
+            <point key="canvasLocation" x="136.95652173913044" y="148.32589285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

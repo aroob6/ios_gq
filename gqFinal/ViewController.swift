@@ -36,7 +36,7 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
                                  titleColor: UIColor.black,
                            descriptionColor: UIColor.white,
                                   titleFont: UIFont(name: "AppleSDGothicNeo-Bold", size: 24.0)!,
-                            descriptionFont: UIFont.systemFont(ofSize: 15)),
+                            descriptionFont: UIFont.systemFont(ofSize: 15))
         ]
     
     override func viewDidLoad() {
@@ -76,7 +76,6 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
         }
     }
     
-  
     func onboardingItem(at index: Int) -> OnboardingItemInfo {
         return items[index]
    }
@@ -112,4 +111,3 @@ class ViewController: UIViewController, PaperOnboardingDataSource, PaperOnboardi
     }
     
 }
-

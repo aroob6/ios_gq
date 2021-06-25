@@ -12,7 +12,11 @@
 		84789E7A2657863A00865B38 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84789E792657863A00865B38 /* Users.swift */; };
 		84789E8226578CAE00865B38 /* UserFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84789E8126578CAE00865B38 /* UserFirebase.swift */; };
 		84789E8726578CD700865B38 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84789E8626578CD700865B38 /* UserService.swift */; };
-		84789E99265CAF4100865B38 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84789E98265CAF4100865B38 /* GoogleService-Info.plist */; };
+		8485BD2D2681DDD50057726E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8485BD2C2681DDD50057726E /* GoogleService-Info.plist */; };
+		849654F92682BF58004F4176 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 849654F82682BF58004F4176 /* .swiftlint.yml */; };
+		8499B4EF267AEA5400583D5F /* MarketDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499B4EE267AEA5400583D5F /* MarketDetailViewController.swift */; };
+		8499B4F2267B129300583D5F /* MarketDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499B4F0267B129300583D5F /* MarketDetailTableViewCell.swift */; };
+		8499B4F3267B129300583D5F /* MarketDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8499B4F1267B129300583D5F /* MarketDetailTableViewCell.xib */; };
 		84D67B6C2651EDE000E346AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D67B6B2651EDE000E346AA /* AppDelegate.swift */; };
 		84D67B6E2651EDE000E346AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D67B6D2651EDE000E346AA /* SceneDelegate.swift */; };
 		84D67B702651EDE000E346AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D67B6F2651EDE000E346AA /* ViewController.swift */; };
@@ -74,7 +78,11 @@
 		84789E792657863A00865B38 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		84789E8126578CAE00865B38 /* UserFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFirebase.swift; sourceTree = "<group>"; };
 		84789E8626578CD700865B38 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
-		84789E98265CAF4100865B38 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8485BD2C2681DDD50057726E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Desktop/swift/gqFinal/gqFinal/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		849654F82682BF58004F4176 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		8499B4EE267AEA5400583D5F /* MarketDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDetailViewController.swift; sourceTree = "<group>"; };
+		8499B4F0267B129300583D5F /* MarketDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDetailTableViewCell.swift; sourceTree = "<group>"; };
+		8499B4F1267B129300583D5F /* MarketDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketDetailTableViewCell.xib; sourceTree = "<group>"; };
 		84D67B682651EDE000E346AA /* gqFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gqFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D67B6B2651EDE000E346AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D67B6D2651EDE000E346AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -162,9 +170,82 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		849654FA26847E8D004F4176 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				84D67CD72655F3CC00E346AA /* CommunityHomeTableViewCell.swift */,
+				84D67CD82655F3CC00E346AA /* CommunityHomeTableViewCell.xib */,
+				84D67CE62656279700E346AA /* CommunityMainViewController.swift */,
+				84D67C982653A9C100E346AA /* CommunityViewController.swift */,
+				84D67C9D2653AC4500E346AA /* CommunityNewsViewController.swift */,
+				84D67CA72653B32B00E346AA /* CommunityHomeViewController.swift */,
+				84D67CB82655E9A500E346AA /* CommunityNewsTableViewCell.swift */,
+				84D67CB92655E9A500E346AA /* CommunityNewsTableViewCell.xib */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		849654FB268480BB004F4176 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				84D67C7A2653930000E346AA /* MarketTableViewCell.swift */,
+				84D67C7B2653930000E346AA /* MarketTableViewCell.xib */,
+				84D67C872653A1A600E346AA /* MarketAdTableViewCell.swift */,
+				84D67C882653A1A700E346AA /* MarketAdTableViewCell.xib */,
+				84D67C6D265384B000E346AA /* MarketItemCollectionViewCell.swift */,
+				84D67C6E265384B000E346AA /* MarketItemCollectionViewCell.xib */,
+				84D67C6626537AD400E346AA /* MarketadCollectionViewCell.swift */,
+				84D67C6726537AD400E346AA /* MarketadCollectionViewCell.xib */,
+				84D67C61265379C600E346AA /* MarketViewController.swift */,
+				8499B4EE267AEA5400583D5F /* MarketDetailViewController.swift */,
+				8499B4F0267B129300583D5F /* MarketDetailTableViewCell.swift */,
+				8499B4F1267B129300583D5F /* MarketDetailTableViewCell.xib */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
+		849654FC268480D6004F4176 /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				84D67C4E2653607F00E346AA /* RankingTableViewCell.swift */,
+				84D67C4F2653607F00E346AA /* RankingTableViewCell.xib */,
+				84D67C36265346D400E346AA /* RankingTopTableViewCell.swift */,
+				84D67C37265346D400E346AA /* RankingTopTableViewCell.xib */,
+				84D67C312653450200E346AA /* RankingViewController.swift */,
+			);
+			path = Ranking;
+			sourceTree = "<group>";
+		};
+		849654FD26848109004F4176 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84789E792657863A00865B38 /* Users.swift */,
+				84789E8126578CAE00865B38 /* UserFirebase.swift */,
+				84789E8626578CD700865B38 /* UserService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		849654FE26855859004F4176 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				84D67CE12656040200E346AA /* UserViewController.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		849654FF26855863004F4176 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				84D67BBA265246B400E346AA /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		84D67B5F2651EDE000E346AA = {
 			isa = PBXGroup;
 			children = (
+				849654F82682BF58004F4176 /* .swiftlint.yml */,
 				84D67B6A2651EDE000E346AA /* gqFinal */,
 				84D67B812651EDEB00E346AA /* gqFinalTests */,
 				84D67B8C2651EDEB00E346AA /* gqFinalUITests */,
@@ -187,42 +268,21 @@
 		84D67B6A2651EDE000E346AA /* gqFinal */ = {
 			isa = PBXGroup;
 			children = (
-				84789E98265CAF4100865B38 /* GoogleService-Info.plist */,
-				84D67C982653A9C100E346AA /* CommunityViewController.swift */,
-				84D67C9D2653AC4500E346AA /* CommunityNewsViewController.swift */,
-				84D67CA72653B32B00E346AA /* CommunityHomeViewController.swift */,
-				84D67CB82655E9A500E346AA /* CommunityNewsTableViewCell.swift */,
-				84D67CB92655E9A500E346AA /* CommunityNewsTableViewCell.xib */,
-				84D67C7A2653930000E346AA /* MarketTableViewCell.swift */,
-				84D67C7B2653930000E346AA /* MarketTableViewCell.xib */,
-				84D67C872653A1A600E346AA /* MarketAdTableViewCell.swift */,
-				84D67C882653A1A700E346AA /* MarketAdTableViewCell.xib */,
-				84D67C6D265384B000E346AA /* MarketItemCollectionViewCell.swift */,
-				84D67C6E265384B000E346AA /* MarketItemCollectionViewCell.xib */,
-				84D67C6626537AD400E346AA /* MarketadCollectionViewCell.swift */,
-				84D67C6726537AD400E346AA /* MarketadCollectionViewCell.xib */,
-				84D67C61265379C600E346AA /* MarketViewController.swift */,
-				84D67C4E2653607F00E346AA /* RankingTableViewCell.swift */,
-				84D67C4F2653607F00E346AA /* RankingTableViewCell.xib */,
-				84D67C36265346D400E346AA /* RankingTopTableViewCell.swift */,
-				84D67C37265346D400E346AA /* RankingTopTableViewCell.xib */,
-				84D67C312653450200E346AA /* RankingViewController.swift */,
+				849654FD26848109004F4176 /* Model */,
+				849654FF26855863004F4176 /* Home */,
+				849654FC268480D6004F4176 /* Ranking */,
+				849654FB268480BB004F4176 /* Market */,
+				849654FA26847E8D004F4176 /* Community */,
+				849654FE26855859004F4176 /* User */,
+				8485BD2C2681DDD50057726E /* GoogleService-Info.plist */,
 				84D67B9E2651F4CA00E346AA /* LoginViewController.swift */,
 				84D67B6B2651EDE000E346AA /* AppDelegate.swift */,
 				84D67B6D2651EDE000E346AA /* SceneDelegate.swift */,
 				84D67B6F2651EDE000E346AA /* ViewController.swift */,
 				84D67B712651EDE000E346AA /* Main.storyboard */,
-				84D67BBA265246B400E346AA /* HomeViewController.swift */,
 				84D67B742651EDEB00E346AA /* Assets.xcassets */,
 				84D67B762651EDEB00E346AA /* LaunchScreen.storyboard */,
 				84D67B792651EDEB00E346AA /* Info.plist */,
-				84D67CD72655F3CC00E346AA /* CommunityHomeTableViewCell.swift */,
-				84D67CD82655F3CC00E346AA /* CommunityHomeTableViewCell.xib */,
-				84D67CE12656040200E346AA /* UserViewController.swift */,
-				84D67CE62656279700E346AA /* CommunityMainViewController.swift */,
-				84789E792657863A00865B38 /* Users.swift */,
-				84789E8126578CAE00865B38 /* UserFirebase.swift */,
-				84789E8626578CD700865B38 /* UserService.swift */,
 			);
 			path = gqFinal;
 			sourceTree = "<group>";
@@ -267,6 +327,8 @@
 				84D67B652651EDE000E346AA /* Frameworks */,
 				84D67B662651EDE000E346AA /* Resources */,
 				091B0BB659EEA32B38EA216C /* [CP] Embed Pods Frameworks */,
+				84DB544AEE03295B33BF0D06 /* [CP] Copy Pods Resources */,
+				849654F72682B934004F4176 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -305,6 +367,7 @@
 				84D67B862651EDEB00E346AA /* Frameworks */,
 				84D67B872651EDEB00E346AA /* Resources */,
 				B4E10653998B5AC1F930D09B /* [CP] Embed Pods Frameworks */,
+				63CB9AC1213D73D5E2BC9F80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -363,15 +426,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8485BD2D2681DDD50057726E /* GoogleService-Info.plist in Resources */,
+				8499B4F3267B129300583D5F /* MarketDetailTableViewCell.xib in Resources */,
 				84D67C512653607F00E346AA /* RankingTableViewCell.xib in Resources */,
 				84D67B782651EDEB00E346AA /* LaunchScreen.storyboard in Resources */,
 				84D67B752651EDEB00E346AA /* Assets.xcassets in Resources */,
 				84D67CDA2655F3CD00E346AA /* CommunityHomeTableViewCell.xib in Resources */,
 				84D67B732651EDE000E346AA /* Main.storyboard in Resources */,
-				84789E99265CAF4100865B38 /* GoogleService-Info.plist in Resources */,
 				84D67CBB2655E9A500E346AA /* CommunityNewsTableViewCell.xib in Resources */,
 				84D67C8A2653A1A700E346AA /* MarketAdTableViewCell.xib in Resources */,
 				84D67C70265384B000E346AA /* MarketItemCollectionViewCell.xib in Resources */,
+				849654F92682BF58004F4176 /* .swiftlint.yml in Resources */,
 				84D67C39265346D400E346AA /* RankingTopTableViewCell.xib in Resources */,
 				84D67C6926537AD400E346AA /* MarketadCollectionViewCell.xib in Resources */,
 				84D67C7D2653930000E346AA /* MarketTableViewCell.xib in Resources */,
@@ -432,6 +497,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63CB9AC1213D73D5E2BC9F80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gqFinal-gqFinalUITests/Pods-gqFinal-gqFinalUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gqFinal-gqFinalUITests/Pods-gqFinal-gqFinalUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gqFinal-gqFinalUITests/Pods-gqFinal-gqFinalUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		849654F72682B934004F4176 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+		84DB544AEE03295B33BF0D06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gqFinal/Pods-gqFinal-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gqFinal/Pods-gqFinal-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gqFinal/Pods-gqFinal-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B4E10653998B5AC1F930D09B /* [CP] Embed Pods Frameworks */ = {
@@ -510,6 +626,7 @@
 				84D67C6F265384B000E346AA /* MarketItemCollectionViewCell.swift in Sources */,
 				84D67C6826537AD400E346AA /* MarketadCollectionViewCell.swift in Sources */,
 				84789E8726578CD700865B38 /* UserService.swift in Sources */,
+				8499B4F2267B129300583D5F /* MarketDetailTableViewCell.swift in Sources */,
 				84D67B702651EDE000E346AA /* ViewController.swift in Sources */,
 				84D67C892653A1A700E346AA /* MarketAdTableViewCell.swift in Sources */,
 				84D67C9E2653AC4500E346AA /* CommunityNewsViewController.swift in Sources */,
@@ -520,6 +637,7 @@
 				84D67C62265379C600E346AA /* MarketViewController.swift in Sources */,
 				84D67C992653A9C100E346AA /* CommunityViewController.swift in Sources */,
 				84D67CBA2655E9A500E346AA /* CommunityNewsTableViewCell.swift in Sources */,
+				8499B4EF267AEA5400583D5F /* MarketDetailViewController.swift in Sources */,
 				84789E8226578CAE00865B38 /* UserFirebase.swift in Sources */,
 				84D67BBB265246B400E346AA /* HomeViewController.swift in Sources */,
 				84D67B9F2651F4CA00E346AA /* LoginViewController.swift in Sources */,

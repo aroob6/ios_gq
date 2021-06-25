@@ -27,7 +27,6 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
             self.setViewControllers([firstVc], direction: .forward, animated: true, completion: nil)
         }
 
-        
     }
 
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
